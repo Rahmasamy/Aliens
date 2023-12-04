@@ -1,0 +1,99 @@
+*{
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
+padding: 0;
+margin: 0;
+}
+a {
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+body{
+    background-image:linear-gradient(to right,gray ,black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   
+    background-image: 
+    linear-gradient(to right,rgba(35, 23, 23, 0.438)  30%,rgba(102, 100, 100, 0.493)),
+    url("https://d.newsweek.com/en/full/1139471/gettyimages-692687026.jpg");
+    width:90%;
+    height: 640px;
+    background-position: center;
+
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right,rgba(45, 17, 17, 0.422)  30%,transparent),
+    url("https://d.newsweek.com/en/full/1139471/gettyimages-692687026.jpg");
+    
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+
+}
+ul a {
+    border-bottom: 2px solid transparent;
+    color: whitesmoke;
+}
+ul a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+
+.content{
+    background-color: brown;
+    color: aliceblue;
+    width:50%;
+    margin-top: 60px;
+    padding: 30px;
+}
+.content h2 {
+    text-transform: uppercase;
+    font-size: 100px;
+
+}
+.content p {
+    letter-spacing:3px;
+    width:320px;
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 500;
+    
+}
+.content button {
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border-color: transparent;
+
+}
+.content button:hover {
+    background-color: transparent;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    cursor: pointer;
+}
